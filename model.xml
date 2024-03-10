@@ -13,7 +13,7 @@
 	</properties>
 	<struct>
 		<and abstract="true" mandatory="true" name="DPL_Antenna">
-			<or mandatory="true" name="Forma">
+			<or abstract="true" mandatory="true" name="Forma">
 				<feature name="Linha"/>
 				<feature name="Retangulo"/>
 			</or>
